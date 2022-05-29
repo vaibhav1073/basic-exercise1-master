@@ -1,0 +1,59 @@
+#Bannerimage 
+{
+width:960px;
+height:275px;
+border: 1px solid black;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+#bannerborder
+{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 150px;
+margin-top: 100px;
+
+/* section which contains the banner image */
+}
+
+.imageborder
+{
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+    height: 200px;
+    margin: 05px;
+    
+    /* image border for the first page and the banner */
+}
+
+a{
+    display:inline-flex;
+    text-decoration: none;
+    color: black;
+    
+    /* nav links common to all three pages, redecorating to change the underline */
+    
+}
+.links{
+    text-align: center;
+    padding-bottom: 20px;
+    /* navigation links common to all three pages */
+}
+.another
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+#items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
